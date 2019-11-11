@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Simple Blog with WP`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -49,7 +49,9 @@ module.exports = {
           "**/media",
           "**/tags",
           "**/taxonomies",
-          "**/users"
+          "**/users",
+          "**/*/*/menus",
+          "**/*/*/menu-locations"
         ],
         excludedRoutes: [],
         normalizer: function({ entities }) {
